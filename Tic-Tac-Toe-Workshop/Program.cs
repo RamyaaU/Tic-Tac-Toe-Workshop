@@ -11,6 +11,11 @@ namespace Tic_Tac_Toe_Workshop
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to Tic-Tac-Toe!");
+            TicTacToeGame game = new TicTacToeGame();
+            game.CreateBoard();
+            char choice = game.Choice();
+            game.ShowBoard();
+            game.PlayerMovement(choice);
         }
     }
 }
