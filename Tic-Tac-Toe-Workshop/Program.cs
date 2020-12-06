@@ -27,5 +27,6 @@ namespace Tic_Tac_Toe_Workshop
                 Console.WriteLine("Do you want to play another game? \n1. Yes\n2. No");
                 playAnotherGame = int.Parse(Console.ReadLine());
             }
+        }
     }
 }
