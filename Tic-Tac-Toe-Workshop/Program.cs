@@ -12,7 +12,7 @@ namespace Tic_Tac_Toe_Workshop
         {
             Console.WriteLine("Hello, Welcome to Tic-Tac-Toe!");
             TicTacToeGame game = new TicTacToeGame();
-            int playAnotherGame = 1
+            int playAnotherGame = 1;
             while (playAnotherGame == 1)
             {
                 game.CreateBoard();
