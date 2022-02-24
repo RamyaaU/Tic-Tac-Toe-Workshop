@@ -15,7 +15,7 @@ namespace Tic_Tac_Toe_Workshop
             int playAnotherGame = 1;
             while (playAnotherGame == 1)
             {
-                game.CreateBoard();
+                //game.CreateBoard();
                 char userChoice = game.Choice();
                 char compChoice;
                 if (userChoice == 'X')
