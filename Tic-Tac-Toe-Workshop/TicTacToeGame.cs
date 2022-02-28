@@ -14,7 +14,7 @@ namespace Tic_Tac_Toe_Workshop
         /// </summary>
         public TicTacToeGame()
         {
-            board = new char[15];
+            board = new char[10];
         }
 
         /// <summary>
