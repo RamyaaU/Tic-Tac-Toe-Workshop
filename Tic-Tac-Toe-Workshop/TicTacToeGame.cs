@@ -7,9 +7,11 @@ namespace Tic_Tac_Toe_Workshop
     class TicTacToeGame
     {
         public char[] board;
-        public enum Player { USER, COMPUTER }
+        public enum Player { USER, COMPUTER };
 
-      
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TicTacToeGame"/> class.
+        /// </summary>
         public TicTacToeGame()
         {
             board = new char[10];
