@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tic_Tac_Toe_Workshop
 {
-    class TicTacToeGame
+    public class TicTacToeGame
     {
         public char[] board;
         public enum Player { USER, COMPUTER };
