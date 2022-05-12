@@ -34,7 +34,7 @@ namespace Tic_Tac_Toe_Workshop
         /// <returns></returns>
         public char Choice()
         {
-            Console.WriteLine("Enter valid choice. \nX \n0");
+            Console.WriteLine("Enter your choice. \nX \n0");
             char userSign = Convert.ToChar(Console.ReadLine());
             string choice;
             switch (userSign)
