@@ -16,13 +16,10 @@ namespace Tic_Tac_Toe_Workshop
         {
             board = new char[10];
         }
-
-        /// <summary>
-        /// Creates the board.
-        /// </summary>
+                
         public void CreateBoard()
         {
-            for (int position = 1; position < 10; position++)
+            for (int position = 1; position < 20; position++)
             {
                 board[position] = ' ';
             }
