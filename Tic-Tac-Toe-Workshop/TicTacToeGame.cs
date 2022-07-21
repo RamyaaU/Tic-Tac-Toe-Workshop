@@ -22,7 +22,7 @@ namespace Tic_Tac_Toe_Workshop
         /// </summary>
         public void CreateBoard()
         {
-            for (int position = 1; position < 10; position++)
+            for (int position = 1; position < 20; position++)
             {
                 board[position] = ' ';
             }
@@ -34,7 +34,7 @@ namespace Tic_Tac_Toe_Workshop
         /// <returns></returns>
         public char Choice()
         {
-            Console.WriteLine("Enter your choice. \nX \n0");
+            Console.WriteLine("Enter your choice: \nX \n0");
             char userSign = Convert.ToChar(Console.ReadLine());
             string choice;
             switch (userSign)
