@@ -45,6 +45,9 @@ namespace Tic_Tac_Toe_Workshop
                 case 'O':
                     choice = "You Chose: O";
                     break;
+                case  'a' :
+                    choice = "You choose nothing";
+                    break;
                 default:
                     choice = "Invalid Choice";
                     break;
