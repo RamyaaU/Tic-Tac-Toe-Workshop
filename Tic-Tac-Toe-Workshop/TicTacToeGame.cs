@@ -22,9 +22,9 @@ namespace Tic_Tac_Toe_Workshop
         /// </summary>
         public void CreateBoard()
         {
-            for (int a = 1; a < 10; a++)
+            for (int position = 1; position < 10; position++)
             {
-                board[a] = ' ';
+                board[position] = ' ';
             }
         }
 
