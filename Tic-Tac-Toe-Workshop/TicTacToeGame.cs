@@ -78,7 +78,7 @@ namespace Tic_Tac_Toe_Workshop
         /// <returns></returns>
         public bool PositionCheck(int position)
         {
-            if (board[position] == 1)
+            if (board[position] == ' ')
                 return true;
             else
             {
