@@ -173,8 +173,7 @@ namespace Tic_Tac_Toe_Workshop
         public int WinningMove(char choice)
         {
             int winningIndex = 0;
-            //for (int i = 1; i < 10; i++)
-            for (int i = 0; i < 15; i++)
+            for (int i = 1; i < 10; i++)
             {
                 if (PositionCheck(i) == true)
                 {
